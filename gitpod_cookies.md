@@ -11,7 +11,7 @@ This then logs the cookies of a victim that gets redirected to this domain.
 
 <img src="res/gitpod_cookies_logged.png" width=70%>
 
-There actually was a filter implemented, but it seems that the name of the cookie changed, so the filter was not working as intended. The issue got fixed by Gitpod within less than 24 hours after reporting it with the following commit:  
+There actually was a filter implemented, but it seems that the name of the cookie changed, so the filter was not working as intended. The issue got fixed by Gitpod within less than 24 hours after reporting it, with the following commit:  
 [https://github.com/gitpod-io/gitpod/commit/486dab1bbfebedf965db7d4d591436880d8eac0a](https://github.com/gitpod-io/gitpod/commit/486dab1bbfebedf965db7d4d591436880d8eac0a)
 
-Similarly to the [CVE-2023-0957](https://snyk.io/blog/gitpod-remote-code-execution-vulnerability-websockets/) discovered by Snyk the impact of this was CVSS High.
+Similarly to the [CVE-2023-0957](https://snyk.io/blog/gitpod-remote-code-execution-vulnerability-websockets/) discovered by Snyk, the impact of this was CVSS High.
